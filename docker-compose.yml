@@ -63,8 +63,11 @@ services:
       - wpnet
 
 volumes:
+
   db_data:
+    driver: local
   wp_data:
+    driver: local
 
 networks:
   wpnet:
